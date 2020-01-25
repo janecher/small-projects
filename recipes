@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            background-color:#F7FC9C;
+        }
+        h1{
+            text-align: center;
+        }
+        .headings{
+            color: grey;
+        }
+        p strong{
+            color: grey;
+        }
+        h4{
+            background-color: orange;
+            text-align: center;
+        }
+        #sourse_style{
+            background-color:orange;
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1 id="top">Jane's Recipe Book</h1>
+        
+        <h3 class="headings">Contents:</h3>
+        
+        <ol>
+            <li><a href="#borsch">Borscht</a></li>
+            <li><a href="#olivie">Olivier salad</a></li>
+            <li><a href="#kompot">Kompot</a></li>
+        </ol>
+        
+        <h4 id="borsch">Borscht</h4>
+        
+        <ul>
+            <li>Time: 40 min</li>
+            <li>Serves: 6 bowls</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Borscht_served.jpg/1920px-Borscht_served.jpg" alt="Borscht" width = "400">
+        <table>
+            <thead>
+                <tr>
+                    <th class="headings">Ingredients</th>
+                    <th class="headings">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Graund beef</td>
+                    <td>500 gramm</td>
+                </tr>
+                <tr>
+                    <td>Cabbage</td>
+                    <td>200 gramm</td>
+                </tr>
+                <tr>
+                    <td>Potato</td>
+                    <td>3 medium size</td>
+                </tr>
+                <tr>
+                    <td>Carrot</td>
+                    <td>1 big</td>
+                </tr>
+                <tr>
+                    <td>Beet</td>
+                    <td>1 big</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1 small</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1 tea spoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Put 1 gallon of water on the stove and put meatballs in the boiled water.
+</p>
+ <p><strong>Step 2:</strong> Cut all vegies and put in the water in order: cabbage, potato, beet, carrot, onion. Add salt.</p>
+        <p><strong>Step 3:</strong> Boiled for 20 min.</p>
+        <h4 id="olivie">Olivier salad</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Sa%C5%82atka_warzywna_z_majonezem.jpg" alt="Olivier salad" width="400">
+        <ul>
+            <li>Time: 30 min</li>
+            <li>Serves: 4 bowls</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th class="headings">Ingredients</th>
+                    <th class="headings">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bolognia</td>
+                    <td>500 gramm</td>
+                </tr>
+                <tr>
+                    <td>Pickles</td>
+                    <td>200 gramm</td>
+                </tr>
+                <tr>
+                    <td>Potato</td>
+                    <td>3 medium size</td>
+                </tr>
+                <tr>
+                    <td>Carrot</td>
+                    <td>1 big</td>
+                </tr>
+                <tr>
+                    <td>Green Onion</td>
+                    <td>1 big</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>by your test</td>
+                </tr>
+                <tr>
+                    <td>Mayo</td>
+                    <td>1-2 table spoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Boiled potato and eggs. Put them under cold water. Remove egg shell and peel potato.
+</p>
+ <p><strong>Step 2:</strong> Cut all the ingredientse in cubes.</p>
+        <p><strong>Step 3:</strong> Mix them with mayo and salt.</p>
+        <h4 id="kompot">Kompot</h4>
+        
+        <ul>
+            <li>Time: 20 min</li>
+            <li>Serves: 6 cups</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Peach_kompot.JPG/800px-Peach_kompot.JPG" alt="Borscht" width = "400">
+        <table>
+            <thead>
+                <tr>
+                    <th class="headings">Ingredients</th>
+                    <th class="headings">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dry apricot</td>
+                    <td>100 gramm</td>
+                </tr>
+                <tr>
+                    <td>Apples</td>
+                    <td>100 gramm</td>
+                </tr>
+                <tr>
+                    <td>Pears</td>
+                    <td>100 gramm</td>
+                </tr>
+                <tr>
+                    <td>Raisins</td>
+                    <td>100 gramm</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>2 table spoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Put 1 gallon of water on the stove and boiled it.
+</p>
+ <p><strong>Step 2:</strong> Wash up all ingredients, cut apples and pears, add everything to the water</p>
+        <p><strong>Step 3:</strong> Boiled for 10 min. Wait till it cools to serve.</p>
+    <p id="sourse_style"><em>Source: <a href="#top">Some recipes websites</a></em></p>
+    
+    
+    </body>
+</html>
